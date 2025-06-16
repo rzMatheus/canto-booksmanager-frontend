@@ -1,3 +1,5 @@
+/// <reference types="@vitest/browser/context" />
+
 {
   "files": [],
   "references": [
@@ -12,6 +14,7 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "types": ["@testing-library/jest-dom"],
   }
 }
